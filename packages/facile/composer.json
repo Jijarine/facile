@@ -1,0 +1,32 @@
+{
+    "name": "facile",
+    "description": "The Facile framework",
+    "type": "library",
+    "keywords": [
+        "framework"
+    ],
+    "homepage": "https://facile.coleds.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Cole",
+            "homepage": "https://github.com/jijarine/facile"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jijarine/facile/issues",
+        "forum": "https://stackoverflow.com/tags/facile",
+        "source": "https://github.com/jijarine/facile"
+    },
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facile\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}

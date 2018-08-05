@@ -1,0 +1,24 @@
+{
+    "name": "facile/app",
+    "description": "Facile skeleton app",
+    "homepage": "https://facile.coleds.com",
+    "type": "project",
+    "license": "MIT",
+	"minimum-stability": "dev",
+    "repositories": [
+		{
+			"type": "path",
+			"url": "/home/coleds/facilecms.coleds.com/packages/facile",
+			"packagist.org": false
+		}
+    ],
+    "require": {
+        "php": ">=7.2",
+		"facile": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facile\\": "src/"
+        }
+    }
+}
